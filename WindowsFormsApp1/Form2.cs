@@ -73,6 +73,11 @@ namespace WindowsFormsApp1
 			score1.Text = counter1 + "";
 		}
 
+		private void Form2_Load(object sender, EventArgs e)
+		{
+
+		}
+
 		private void reset_Click(object sender, EventArgs e)
 		{
 			counter1 = 0;

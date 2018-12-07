@@ -30,12 +30,14 @@
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.button502 = new System.Windows.Forms.Button();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.minus1 = new System.Windows.Forms.Button();
 			this.score1 = new System.Windows.Forms.TextBox();
 			this.add1 = new System.Windows.Forms.Button();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.button50 = new System.Windows.Forms.Button();
 			this.textBox4 = new System.Windows.Forms.TextBox();
 			this.minus2 = new System.Windows.Forms.Button();
 			this.label4 = new System.Windows.Forms.Label();
@@ -45,8 +47,6 @@
 			this.reset = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.button502 = new System.Windows.Forms.Button();
-			this.button50 = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -79,6 +79,17 @@
 			this.groupBox1.Size = new System.Drawing.Size(506, 505);
 			this.groupBox1.TabIndex = 2;
 			this.groupBox1.TabStop = false;
+			// 
+			// button502
+			// 
+			this.button502.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button502.Location = new System.Drawing.Point(188, 418);
+			this.button502.Name = "button502";
+			this.button502.Size = new System.Drawing.Size(123, 50);
+			this.button502.TabIndex = 9;
+			this.button502.Text = "+50";
+			this.button502.UseVisualStyleBackColor = true;
+			this.button502.Click += new System.EventHandler(this.button502_Click);
 			// 
 			// textBox1
 			// 
@@ -147,6 +158,17 @@
 			this.groupBox2.TabIndex = 3;
 			this.groupBox2.TabStop = false;
 			// 
+			// button50
+			// 
+			this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button50.Location = new System.Drawing.Point(207, 418);
+			this.button50.Name = "button50";
+			this.button50.Size = new System.Drawing.Size(123, 50);
+			this.button50.TabIndex = 10;
+			this.button50.Text = "+50";
+			this.button50.UseVisualStyleBackColor = true;
+			this.button50.Click += new System.EventHandler(this.button50_Click);
+			// 
 			// textBox4
 			// 
 			this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -211,7 +233,7 @@
 			// reset
 			// 
 			this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.reset.Location = new System.Drawing.Point(787, 12);
+			this.reset.Location = new System.Drawing.Point(985, 68);
 			this.reset.Name = "reset";
 			this.reset.Size = new System.Drawing.Size(134, 53);
 			this.reset.TabIndex = 10;
@@ -232,6 +254,7 @@
 			// 
 			// pictureBox1
 			// 
+			this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
 			this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Logo_PERMIT;
 			this.pictureBox1.Location = new System.Drawing.Point(12, 12);
 			this.pictureBox1.Name = "pictureBox1";
@@ -239,28 +262,6 @@
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 13;
 			this.pictureBox1.TabStop = false;
-			// 
-			// button502
-			// 
-			this.button502.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button502.Location = new System.Drawing.Point(188, 418);
-			this.button502.Name = "button502";
-			this.button502.Size = new System.Drawing.Size(123, 50);
-			this.button502.TabIndex = 9;
-			this.button502.Text = "+50";
-			this.button502.UseVisualStyleBackColor = true;
-			this.button502.Click += new System.EventHandler(this.button502_Click);
-			// 
-			// button50
-			// 
-			this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button50.Location = new System.Drawing.Point(207, 418);
-			this.button50.Name = "button50";
-			this.button50.Size = new System.Drawing.Size(123, 50);
-			this.button50.TabIndex = 10;
-			this.button50.Text = "+50";
-			this.button50.UseVisualStyleBackColor = true;
-			this.button50.Click += new System.EventHandler(this.button50_Click);
 			// 
 			// Form1
 			// 
@@ -275,6 +276,7 @@
 			this.Name = "Form1";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Cerdas Cermat Counter";
+			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();
 			this.groupBox2.ResumeLayout(false);

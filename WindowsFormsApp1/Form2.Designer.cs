@@ -85,7 +85,7 @@
 			// reset
 			// 
 			this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.reset.Location = new System.Drawing.Point(1115, 8);
+			this.reset.Location = new System.Drawing.Point(1313, 67);
 			this.reset.Name = "reset";
 			this.reset.Size = new System.Drawing.Size(134, 53);
 			this.reset.TabIndex = 16;
@@ -281,7 +281,7 @@
 			this.groupBox3.Controls.Add(this.add3);
 			this.groupBox3.Controls.Add(this.label6);
 			this.groupBox3.Controls.Add(this.score3);
-			this.groupBox3.Location = new System.Drawing.Point(982, 123);
+			this.groupBox3.Location = new System.Drawing.Point(975, 123);
 			this.groupBox3.Name = "groupBox3";
 			this.groupBox3.Size = new System.Drawing.Size(477, 505);
 			this.groupBox3.TabIndex = 17;
@@ -373,6 +373,8 @@
 			this.Name = "Form2";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Form2";
+			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+			this.Load += new System.EventHandler(this.Form2_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.groupBox2.ResumeLayout(false);
 			this.groupBox2.PerformLayout();
