@@ -32,6 +32,7 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.reset = new System.Windows.Forms.Button();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.button3 = new System.Windows.Forms.Button();
 			this.textBox4 = new System.Windows.Forms.TextBox();
 			this.minus2 = new System.Windows.Forms.Button();
 			this.label4 = new System.Windows.Forms.Label();
@@ -44,17 +45,16 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.minus1 = new System.Windows.Forms.Button();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.button2 = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.button4 = new System.Windows.Forms.Button();
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.minus3 = new System.Windows.Forms.Button();
 			this.label5 = new System.Windows.Forms.Label();
 			this.add3 = new System.Windows.Forms.Button();
 			this.label6 = new System.Windows.Forms.Label();
 			this.score3 = new System.Windows.Forms.TextBox();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.groupBox2.SuspendLayout();
 			this.groupBox1.SuspendLayout();
@@ -74,7 +74,7 @@
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(1276, 8);
+			this.button1.Location = new System.Drawing.Point(1255, 8);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(192, 53);
 			this.button1.TabIndex = 17;
@@ -85,7 +85,7 @@
 			// reset
 			// 
 			this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.reset.Location = new System.Drawing.Point(1136, 8);
+			this.reset.Location = new System.Drawing.Point(1115, 8);
 			this.reset.Name = "reset";
 			this.reset.Size = new System.Drawing.Size(134, 53);
 			this.reset.TabIndex = 16;
@@ -108,6 +108,17 @@
 			this.groupBox2.Size = new System.Drawing.Size(486, 505);
 			this.groupBox2.TabIndex = 15;
 			this.groupBox2.TabStop = false;
+			// 
+			// button3
+			// 
+			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.Location = new System.Drawing.Point(206, 418);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(123, 50);
+			this.button3.TabIndex = 16;
+			this.button3.Text = "+50";
+			this.button3.UseVisualStyleBackColor = true;
+			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
 			// textBox4
 			// 
@@ -239,6 +250,17 @@
 			this.groupBox1.TabIndex = 14;
 			this.groupBox1.TabStop = false;
 			// 
+			// button2
+			// 
+			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.Location = new System.Drawing.Point(188, 418);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(123, 50);
+			this.button2.TabIndex = 9;
+			this.button2.Text = "+50";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
@@ -261,9 +283,20 @@
 			this.groupBox3.Controls.Add(this.score3);
 			this.groupBox3.Location = new System.Drawing.Point(982, 123);
 			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(486, 505);
+			this.groupBox3.Size = new System.Drawing.Size(477, 505);
 			this.groupBox3.TabIndex = 17;
 			this.groupBox3.TabStop = false;
+			// 
+			// button4
+			// 
+			this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button4.Location = new System.Drawing.Point(206, 418);
+			this.button4.Name = "button4";
+			this.button4.Size = new System.Drawing.Size(123, 50);
+			this.button4.TabIndex = 16;
+			this.button4.Text = "+50";
+			this.button4.UseVisualStyleBackColor = true;
+			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// textBox2
 			// 
@@ -326,44 +359,11 @@
 			this.score3.Text = "0";
 			this.score3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
-			// button2
-			// 
-			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.Location = new System.Drawing.Point(188, 418);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(123, 50);
-			this.button2.TabIndex = 9;
-			this.button2.Text = "+50";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
-			// button3
-			// 
-			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button3.Location = new System.Drawing.Point(206, 418);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(123, 50);
-			this.button3.TabIndex = 16;
-			this.button3.Text = "+50";
-			this.button3.UseVisualStyleBackColor = true;
-			this.button3.Click += new System.EventHandler(this.button3_Click);
-			// 
-			// button4
-			// 
-			this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button4.Location = new System.Drawing.Point(206, 418);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(123, 50);
-			this.button4.TabIndex = 16;
-			this.button4.Text = "+50";
-			this.button4.UseVisualStyleBackColor = true;
-			this.button4.Click += new System.EventHandler(this.button4_Click);
-			// 
 			// Form2
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1480, 636);
+			this.ClientSize = new System.Drawing.Size(1460, 636);
 			this.Controls.Add(this.groupBox3);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.button1);
