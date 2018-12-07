@@ -9,3 +9,13 @@ H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.GenerateResource.cac
 H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.CoreCompileInputs.cache
 H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.GenerateResource.cache
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
