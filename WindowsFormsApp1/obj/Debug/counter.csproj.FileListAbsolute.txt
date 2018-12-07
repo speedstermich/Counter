@@ -1,0 +1,11 @@
+H:\GitHub\Counter\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+H:\GitHub\Counter\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+H:\GitHub\Counter\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csprojAssemblyReference.cache
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.GenerateResource.cache
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.CoreCompileInputs.cache
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+H:\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
