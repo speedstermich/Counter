@@ -63,6 +63,12 @@ namespace WindowsFormsApp1
 			score2.Text = counter2 + "";
 		}
 
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			this.WindowState = FormWindowState.Maximized;
+			this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+		}
+
 		private void add1_Click(object sender, EventArgs e)
 		{
 			counter1 += 100;

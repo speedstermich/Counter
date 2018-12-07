@@ -75,7 +75,8 @@ namespace WindowsFormsApp1
 
 		private void Form2_Load(object sender, EventArgs e)
 		{
-
+			this.WindowState = FormWindowState.Maximized;
+			this.Size = Screen.PrimaryScreen.WorkingArea.Size;
 		}
 
 		private void reset_Click(object sender, EventArgs e)
