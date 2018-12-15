@@ -19,3 +19,4 @@ C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csp
 C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csproj.CoreCompileInputs.cache
 C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Michael\Documents\GitHub\Counter\WindowsFormsApp1\obj\Debug\counter.csprojAssemblyReference.cache

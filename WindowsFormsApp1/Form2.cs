@@ -20,19 +20,19 @@ namespace WindowsFormsApp1
 
 		private void minus1_Click(object sender, EventArgs e)
 		{
-			counter1 -= 50;
+			counter1 -= 5;
 			score1.Text = counter1 + "";
 		}
 
 		private void add2_Click(object sender, EventArgs e)
 		{
-			counter2 += 100;
+			counter2 += 10;
 			score2.Text = counter2 + "";
 		}
 
 		private void minus2_Click(object sender, EventArgs e)
 		{
-			counter2 -= 50;
+			counter2 -= 5;
 			score2.Text = counter2 + "";
 		}
 
@@ -45,31 +45,31 @@ namespace WindowsFormsApp1
 
 		private void add3_Click(object sender, EventArgs e)
 		{
-			counter3 += 100;
+			counter3 += 10;
 			score3.Text = counter3 + "";
 		}
 
 		private void minus3_Click(object sender, EventArgs e)
 		{
-			counter3 -= 50;
+			counter3 -= 5;
 			score3.Text = counter3 + "";
 		}
 
 		private void button4_Click(object sender, EventArgs e)
 		{
-			counter3 += 50;
+			counter3 += 5;
 			score3.Text = counter3 + "";
 		}
 
 		private void button3_Click(object sender, EventArgs e)
 		{
-			counter2 += 50;
+			counter2 += 5;
 			score2.Text = counter2 + "";
 		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			counter1 += 50;
+			counter1 += 5;
 			score1.Text = counter1 + "";
 		}
 
@@ -77,6 +77,24 @@ namespace WindowsFormsApp1
 		{
 			this.WindowState = FormWindowState.Maximized;
 			this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+		}
+
+		private void button6_Click(object sender, EventArgs e)
+		{
+			counter2 -= 10;
+			score2.Text = counter2 + "";
+		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			counter3 -= 10;
+			score3.Text = counter3 + "";
+		}
+
+		private void button7_Click(object sender, EventArgs e)
+		{
+			counter1 -= 10;
+			score1.Text = counter1 + "";
 		}
 
 		private void reset_Click(object sender, EventArgs e)
@@ -91,7 +109,7 @@ namespace WindowsFormsApp1
 
 		private void add1_Click(object sender, EventArgs e)
 		{
-			counter1 += 100;
+			counter1 += 10;
 			score1.Text = counter1 + "";
 		}
 	}

@@ -47,6 +47,8 @@
 			this.reset = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.button2 = new System.Windows.Forms.Button();
+			this.button3 = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -66,6 +68,7 @@
 			// 
 			this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+			this.groupBox1.Controls.Add(this.button2);
 			this.groupBox1.Controls.Add(this.button502);
 			this.groupBox1.Controls.Add(this.label1);
 			this.groupBox1.Controls.Add(this.textBox1);
@@ -83,11 +86,11 @@
 			// button502
 			// 
 			this.button502.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button502.Location = new System.Drawing.Point(188, 418);
+			this.button502.Location = new System.Drawing.Point(167, 418);
 			this.button502.Name = "button502";
-			this.button502.Size = new System.Drawing.Size(123, 50);
+			this.button502.Size = new System.Drawing.Size(89, 50);
 			this.button502.TabIndex = 9;
-			this.button502.Text = "+50";
+			this.button502.Text = "+5";
 			this.button502.UseVisualStyleBackColor = true;
 			this.button502.Click += new System.EventHandler(this.button502_Click);
 			// 
@@ -113,11 +116,11 @@
 			// minus1
 			// 
 			this.minus1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.minus1.Location = new System.Drawing.Point(317, 418);
+			this.minus1.Location = new System.Drawing.Point(262, 418);
 			this.minus1.Name = "minus1";
-			this.minus1.Size = new System.Drawing.Size(130, 50);
+			this.minus1.Size = new System.Drawing.Size(86, 50);
 			this.minus1.TabIndex = 8;
-			this.minus1.Text = "-50";
+			this.minus1.Text = "-5";
 			this.minus1.UseVisualStyleBackColor = true;
 			this.minus1.Click += new System.EventHandler(this.minus1_Click);
 			// 
@@ -136,15 +139,16 @@
 			this.add1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.add1.Location = new System.Drawing.Point(48, 418);
 			this.add1.Name = "add1";
-			this.add1.Size = new System.Drawing.Size(134, 50);
+			this.add1.Size = new System.Drawing.Size(113, 50);
 			this.add1.TabIndex = 7;
-			this.add1.Text = "+100";
+			this.add1.Text = "+10";
 			this.add1.UseVisualStyleBackColor = true;
 			this.add1.Click += new System.EventHandler(this.add1_Click);
 			// 
 			// groupBox2
 			// 
 			this.groupBox2.BackColor = System.Drawing.SystemColors.ControlLight;
+			this.groupBox2.Controls.Add(this.button3);
 			this.groupBox2.Controls.Add(this.button50);
 			this.groupBox2.Controls.Add(this.textBox4);
 			this.groupBox2.Controls.Add(this.minus2);
@@ -161,11 +165,11 @@
 			// button50
 			// 
 			this.button50.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button50.Location = new System.Drawing.Point(207, 418);
+			this.button50.Location = new System.Drawing.Point(175, 418);
 			this.button50.Name = "button50";
-			this.button50.Size = new System.Drawing.Size(123, 50);
+			this.button50.Size = new System.Drawing.Size(87, 50);
 			this.button50.TabIndex = 10;
-			this.button50.Text = "+50";
+			this.button50.Text = "+5";
 			this.button50.UseVisualStyleBackColor = true;
 			this.button50.Click += new System.EventHandler(this.button50_Click);
 			// 
@@ -181,11 +185,11 @@
 			// minus2
 			// 
 			this.minus2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.minus2.Location = new System.Drawing.Point(335, 418);
+			this.minus2.Location = new System.Drawing.Point(268, 418);
 			this.minus2.Name = "minus2";
-			this.minus2.Size = new System.Drawing.Size(130, 50);
+			this.minus2.Size = new System.Drawing.Size(94, 50);
 			this.minus2.TabIndex = 15;
-			this.minus2.Text = "-50";
+			this.minus2.Text = "-5";
 			this.minus2.UseVisualStyleBackColor = true;
 			this.minus2.Click += new System.EventHandler(this.minus2_Click);
 			// 
@@ -204,9 +208,9 @@
 			this.add2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.add2.Location = new System.Drawing.Point(66, 418);
 			this.add2.Name = "add2";
-			this.add2.Size = new System.Drawing.Size(135, 50);
+			this.add2.Size = new System.Drawing.Size(103, 50);
 			this.add2.TabIndex = 14;
-			this.add2.Text = "+100";
+			this.add2.Text = "+10";
 			this.add2.UseVisualStyleBackColor = true;
 			this.add2.Click += new System.EventHandler(this.add2_Click);
 			// 
@@ -263,6 +267,28 @@
 			this.pictureBox1.TabIndex = 13;
 			this.pictureBox1.TabStop = false;
 			// 
+			// button2
+			// 
+			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.Location = new System.Drawing.Point(354, 418);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(93, 50);
+			this.button2.TabIndex = 10;
+			this.button2.Text = "-10";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
+			// button3
+			// 
+			this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.Location = new System.Drawing.Point(368, 418);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(97, 50);
+			this.button3.TabIndex = 16;
+			this.button3.Text = "-10";
+			this.button3.UseVisualStyleBackColor = true;
+			this.button3.Click += new System.EventHandler(this.button3_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -308,6 +334,8 @@
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button button502;
 		private System.Windows.Forms.Button button50;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button button3;
 	}
 }
 

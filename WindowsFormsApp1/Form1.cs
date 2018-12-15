@@ -20,19 +20,19 @@ namespace WindowsFormsApp1
 
 		private void minus1_Click(object sender, EventArgs e)
 		{
-			counter1 -= 50;
+			counter1 -= 5;
 			score1.Text = counter1 + "";
 		}
 
 		private void add2_Click(object sender, EventArgs e)
 		{
-			counter2 += 100;
+			counter2 += 10;
 			score2.Text = counter2 + "";
 		}
 
 		private void minus2_Click(object sender, EventArgs e)
 		{
-			counter2 -= 50;
+			counter2 -= 5;
 			score2.Text = counter2 + "";
 		}
 
@@ -53,13 +53,13 @@ namespace WindowsFormsApp1
 
 		private void button502_Click(object sender, EventArgs e)
 		{
-			counter1 += 50;
+			counter1 += 5;
 			score1.Text = counter1 + "";
 		}
 
 		private void button50_Click(object sender, EventArgs e)
 		{
-			counter2 += 50;
+			counter2 += 5;
 			score2.Text = counter2 + "";
 		}
 
@@ -69,9 +69,21 @@ namespace WindowsFormsApp1
 			this.Size = Screen.PrimaryScreen.WorkingArea.Size;
 		}
 
+		private void button2_Click(object sender, EventArgs e)
+		{
+			counter1 -= 10;
+			score1.Text = counter1 + "";
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			counter2 -= 10;
+			score2.Text = counter2 + "";
+		}
+
 		private void add1_Click(object sender, EventArgs e)
 		{
-			counter1 += 100;
+			counter1 += 10;
 			score1.Text = counter1 + "";
 		}
 	}
